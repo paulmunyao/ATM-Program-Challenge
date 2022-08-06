@@ -1,15 +1,6 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-html {
-  overflow-y: scroll;
-}
-body {
-  background: #f3f3f3;
-  font-family: "Manjari", sans-serif;
-}
+
+
+
 a {
   text-decoration: none;
   color: #1da1f2;
@@ -166,6 +157,3 @@ textarea {
   }
 }
 
-.test {
-  color: blue;
-}
