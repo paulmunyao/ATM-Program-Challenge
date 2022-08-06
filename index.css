@@ -44,10 +44,7 @@ a:hover {
   background: #0080ff;
   color: #ffffff;
 }
-.top-area .active a {
-  background: #1da1f2;
-  color: #ffffff;
-}
+
 
 .tab-content > div:last-child {
   display: none;
