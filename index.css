@@ -56,17 +56,7 @@ h1 {
   font-weight: 300;
   margin: 0 0 40px;
 }
-label {
-  position: absolute;
-  /* -webkit-transform: translateY(6px); */
-  transform: translateY(6px);
-  left: 13px;
-  color: rgba(255, 255, 255, 0.5);
-  transition: all 0.25s ease;
-  -webkit-backface-visibility: hidden;
-  pointer-events: none;
-  font-size: 22px;
-}
+
 label .req {
   margin: 2px;
   color: #1da1f2;
@@ -83,7 +73,7 @@ label.active .req {
 label.highlight {
   color: #ffffff;
 }
-input,
+/* input,
 textarea {
   font-size: 22px;
   display: block;
@@ -95,12 +85,12 @@ textarea {
   color: #ffffff;
   border-radius: 0;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
-}
-input:focus,
+} */
+/* input:focus,
 textarea:focus {
   outline: 0;
   border-color: #1da1f2;
-}
+} */
 textarea {
   border: 2px solid #a0b3b0;
   resize: vertical;
