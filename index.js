@@ -20,20 +20,20 @@ function addTransaction(transaction) {
     alert("Please add amount you wish to transact");
   } else {
     const transaction = {
-        id: generateID(),
-        amount: +amount.value
+      id: generateID(),
+      amount: +amount.value,
     };
     transactions.push(transaction);
     addTransactionDOM(transaction);
     updateValues();
     updateLocalStorage();
-    
-    amount.value = '';
+
+    amount.value = "";
   }
 }
 // console.log(addTransaction)
 
 function addTransactionDOM(transaction) {
-    const sign = transaction.amount < 0 ? '-' : '+';
-    const item = document.createElement('li');
+  const sign = transaction.amount < 0 ? "-" : "+";
+  const item = document.createElement("li");
 }
