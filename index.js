@@ -10,11 +10,14 @@ const localStorageTransactions = JSON.parse(
   localStorage.getItem("transactions")
 );
 
-let transactions = localStorage.getItem("transactions") !== null ? localStorageTransactions : [];
+let transactions =
+  localStorage.getItem("transactions") !== null ? localStorageTransactions : [];
 
 function addTransaction(transaction) {
-    transaction.preventDefault();
+  transaction.preventDefault();
 
-    if (text.value.trim() === "" || amount.value.trim() === ""){
-        alert('Please add amount you wish to transact')
-} else
+  if (text.value.trim() === "" || amount.value.trim() === "") {
+    alert("Please add amount you wish to transact");
+  } else {
+  }
+}
