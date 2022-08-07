@@ -30,7 +30,7 @@ function addTransaction(transaction) {
     amount.value = "";
   }
 }
-// console.log(addTransaction)
+
 
 function addTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? "-" : "+";
