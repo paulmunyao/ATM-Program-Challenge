@@ -19,5 +19,9 @@ function addTransaction(transaction) {
   if (text.value.trim() === "" || amount.value.trim() === "") {
     alert("Please add amount you wish to transact");
   } else {
+    const transaction = {
+        id: generateID(),
+        
+    }
   }
 }
