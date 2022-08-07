@@ -21,7 +21,7 @@ function addTransaction(transaction) {
   } else {
     const transaction = {
         id: generateID(),
-        
+        amount: +amount.value
     }
   }
 }
