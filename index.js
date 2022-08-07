@@ -13,5 +13,5 @@ const localStorageTransactions = JSON.parse(
 let transactions = localStorage.getItem("transactions") !== null ? localStorageTransactions : [];
 
 function addTransaction(transaction) {
-
+    transaction.preventDefault();
 }
