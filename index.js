@@ -31,4 +31,4 @@ function addTransaction(transaction) {
     amount.value = '';
   }
 }
-console.log(addTransaction)
+// console.log(addTransaction)
