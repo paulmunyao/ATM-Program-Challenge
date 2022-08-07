@@ -37,5 +37,5 @@ function addTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? "-" : "+";
   const item = document.createElement("li");
 
-  
+  item.classList.add(transaction.amount < 0 ? 'minus' : 'plus');
 }
