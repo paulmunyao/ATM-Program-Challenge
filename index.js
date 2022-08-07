@@ -30,5 +30,6 @@ function addTransaction(transaction) {
     
     amount.value = '';
   }
+  
 }
 
