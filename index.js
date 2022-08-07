@@ -22,6 +22,6 @@ function addTransaction(transaction) {
     const transaction = {
         id: generateID(),
         amount: +amount.value
-    }
+    };
   }
 }
