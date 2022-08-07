@@ -25,5 +25,6 @@ function addTransaction(transaction) {
     };
     transactions.push(transaction);
     addTransactionDOM(transaction);
+    
   }
 }
