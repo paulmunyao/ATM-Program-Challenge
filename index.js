@@ -38,4 +38,6 @@ function addTransactionDOM(transaction) {
   const item = document.createElement("li");
 
   item.classList.add(transaction.amount < 0 ? 'minus' : 'plus');
+
+  
 }
