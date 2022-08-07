@@ -23,6 +23,6 @@ function addTransaction(transaction) {
         id: generateID(),
         amount: +amount.value
     };
-    
+    transactions.push(transaction);
   }
 }
