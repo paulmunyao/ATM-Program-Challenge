@@ -9,3 +9,5 @@ const amount = document.getElementById("amount");
 const localStorageTransactions = JSON.parse(
   localStorage.getItem("transactions")
 );
+
+
