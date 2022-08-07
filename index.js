@@ -30,6 +30,5 @@ function addTransaction(transaction) {
     
     amount.value = '';
   }
-  
 }
-
+console.log(addTransaction)
