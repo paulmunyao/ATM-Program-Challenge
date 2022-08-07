@@ -33,4 +33,4 @@ function addTransaction(transaction) {
 }
 // console.log(addTransaction)
 
-
+function addTransactionDOM(transaction)
