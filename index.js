@@ -27,5 +27,6 @@ function addTransaction(transaction) {
     addTransactionDOM(transaction);
     updateValues();
     updateLocalStorage();
+    
   }
 }
