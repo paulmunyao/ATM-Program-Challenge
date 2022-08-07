@@ -14,4 +14,6 @@ let transactions = localStorage.getItem("transactions") !== null ? localStorageT
 
 function addTransaction(transaction) {
     transaction.preventDefault();
+
+    if (text.value.trim())
 }
