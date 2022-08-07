@@ -20,7 +20,6 @@ function addTransaction(transaction) {
     alert("Please add amount you wish to transact");
   } else {
     const transaction = {
-      id: generateID(),
       amount: +amount.value,
     };
     transactions.push(transaction);
