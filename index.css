@@ -114,10 +114,15 @@ body {
   list-style: none;
 }
 
-#CFG{
+#CFG {
   text-decoration: none;
 }
 
-.logout{
-    margin-left :1000px;
+.logout {
+  margin-left: 1000px;
+}
+
+.profile {
+  height: 400px;
+  width: 100px;
 }
