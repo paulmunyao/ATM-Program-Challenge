@@ -97,3 +97,6 @@ init();
 form.addEventListener("submit", addTransaction);
 
 
+function validateForm() {
+    
+}
