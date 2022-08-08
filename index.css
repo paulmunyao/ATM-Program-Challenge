@@ -1,12 +1,12 @@
-body{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
 
 .login-page {
   text-align: center;
   margin-top: 150px;
-  font-family: 'Ibarra Real Nova', serif;  
-  margin-left: -300px; 
+  font-family: "Ibarra Real Nova", serif;
+  margin-left: -300px;
 }
 
 .login {
@@ -28,54 +28,54 @@ body{
   margin-top: 20px;
   margin-right: -30px;
   background-color: blue;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
 }
 
-.sen{
-    font-family: 'Ibarra Real Nova', serif;
+.sen {
+  font-family: "Ibarra Real Nova", serif;
 }
 
-.picha{
-    height: 100px;
-    margin-left: 700px;
-    margin-top:20px;
+.picha {
+  height: 100px;
+  margin-left: 700px;
+  margin-top: 20px;
 }
 
-.signup-page{
-    text-align: center;
-    margin-top: 150px;
-    font-family: 'Ibarra Real Nova', serif;  
-    margin-left: -500px; 
+.signup-page {
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Ibarra Real Nova", serif;
+  margin-left: -500px;
 }
 
-.first{
-    border-radius: 35px;
-    height: 40px;
+.first {
+  border-radius: 35px;
+  height: 40px;
 }
 
-.last{
-    border-radius: 35px;
-    height: 40px;
-    margin-top: 20px;
-    margin-right: -5px;
+.last {
+  border-radius: 35px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: -5px;
 }
 
-.address{
-    border-radius: 35px;
-    height: 40px;
-    margin-top: 20px;
-    margin-right: -5px;
+.address {
+  border-radius: 35px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: -5px;
 }
 
-.pass{
-    border-radius: 35px;
-    height: 40px;
-    margin-top: 20px;
-    margin-left: -1px;
+.pass {
+  border-radius: 35px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: -1px;
 }
 
-.pic{
-    height: 100px;
-    margin-left: 700px;
-    margin-bottom:-150px;
+.pic {
+  height: 100px;
+  margin-left: 700px;
+  margin-bottom: -150px;
 }
