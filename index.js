@@ -99,6 +99,6 @@ function validateForm() {
   var email = document.myForm.email.value;
   var password = document.myForm.email.value;
 
-  if (!email || !password) {
+  if (!email==null || !password) {
   }
 }
