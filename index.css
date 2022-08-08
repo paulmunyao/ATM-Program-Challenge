@@ -85,3 +85,10 @@ body {
   margin-top: 50px;
   font-family: "Ibarra Real Nova", serif;
 }
+
+.add {
+  border-radius: 35px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: -5px;
+}
