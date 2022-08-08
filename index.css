@@ -122,4 +122,7 @@ body {
   margin-left: 1000px;
 }
 
-
+.profile{
+    border-radius: 50%;
+    width: 50px;
+  }
