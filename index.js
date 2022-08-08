@@ -98,5 +98,5 @@ form.addEventListener("submit", addTransaction);
 
 
 function validateForm() {
-    var 
+    var password = document
 }
