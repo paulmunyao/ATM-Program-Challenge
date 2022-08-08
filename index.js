@@ -31,7 +31,6 @@ function addTransaction(transaction) {
   }
 }
 
-
 function addTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? "-" : "";
   const item = document.createElement("li");
@@ -96,8 +95,7 @@ init();
 
 form.addEventListener("submit", addTransaction);
 
-
 function validateForm() {
-    var email = document.myForm.email.value;
-    var password = document.myForm.email.value; 
+  var email = document.myForm.email.value;
+  var password = document.myForm.email.value;
 }
