@@ -109,3 +109,7 @@ body {
   background-color: blue;
   font-family: "Ibarra Real Nova", serif;
 }
+
+.list{
+    list-style: none;
+}
