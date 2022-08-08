@@ -21,8 +21,7 @@
   width: 100px;
   margin-top: 20px;
   margin-right: -30px;
+  background-color:blue;
 }
 
-button:hover {
-    background-color: yellow;
-  }
+
