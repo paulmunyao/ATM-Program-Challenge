@@ -99,9 +99,9 @@ function validateForm() {
   var email = document.myForm.email.value;
   var password = document.myForm.email.value;
 
-  if (!email==null || email=="") {
-    alert("email can't be blank")
-  }else if (password.length<6) {
-    alert("password must be at least 6 characters long")
+  if (!email == null || email == "") {
+    alert("email can't be blank");
+  } else if (password.length < 6) {
+    alert("password must be at least 6 characters long");
   }
 }
