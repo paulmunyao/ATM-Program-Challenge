@@ -47,3 +47,8 @@ body{
     font-family: 'Ibarra Real Nova', serif;  
     margin-left: -300px; 
 }
+
+.first{
+    border-radius: 35px;
+    height: 40px;
+}
