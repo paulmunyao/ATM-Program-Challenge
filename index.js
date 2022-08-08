@@ -100,6 +100,6 @@ function validateForm() {
   var password = document.myForm.email.value;
 
   if (!email==null || email=="") {
-    
+    alert("email can't be blank")
   }
 }
