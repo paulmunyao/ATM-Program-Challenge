@@ -101,5 +101,5 @@ function validateForm() {
 
   if (!email==null || email=="") {
     alert("email can't be blank")
-  }
+  }else if (password.length<6) {}
 }
