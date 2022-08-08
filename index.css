@@ -40,3 +40,10 @@ body{
     margin-left: 700px;
     margin-top:20px;
 }
+
+.signup-page{
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Ibarra Real Nova', serif;  
+    margin-left: -300px; 
+}
