@@ -98,5 +98,5 @@ form.addEventListener("submit", addTransaction);
 
 
 function validateForm() {
-    var password = document.myform.email
+    var password = document.myForm.email
 }
