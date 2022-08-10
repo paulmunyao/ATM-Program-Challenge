@@ -13,7 +13,7 @@ const localStorageTransactions = JSON.parse(
 let transactions =
   localStorage.getItem("transactions") !== null ? localStorageTransactions : [];
 
-  
+// function for cash deposit
 function addTransaction(transaction) {
   transaction.preventDefault();
 
