@@ -1,7 +1,6 @@
 # Delani Studio
 
-Delani Studio is a fictional studio that offers Software Development services,
-to it's esteemed clientelle.The services vary depending on what one wants.
+
 
 ## Technology used
 
