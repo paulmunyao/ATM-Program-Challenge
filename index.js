@@ -36,7 +36,8 @@ function addTransaction(transaction) {
 function removeTransaction(transaction) {
   // transaction.preventDefault();
 
-  if(amount.value)
+  if(amount.value === "") {
+    alert("")
 }
 
 
