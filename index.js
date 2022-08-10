@@ -38,7 +38,7 @@ function removeTransaction(transaction) {
 
   if(amount.value === "") {
     alert("Please remove amount you wish to transact")
-}
+}}
 
 
 function addTransactionDOM(transaction) {
