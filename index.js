@@ -31,7 +31,7 @@ function addTransaction(transaction) {
   }
 }
 
-
+// function for cash withdrawal
 function addTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? "" : "+";
   const item = document.createElement("li");
