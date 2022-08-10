@@ -69,14 +69,14 @@ function updateValues() {
   money_minus.innerText = `$${withdrawal}`;
 }
 
-// Remove transaction by ID
-function removeTransaction(id) {
-  transactions = transactions.filter((transaction) => transaction.id !== id);
+// // Remove transaction by ID
+// function removeTransaction(id) {
+//   transactions = transactions.filter((transaction) => transaction.id !== id);
 
-  updateLocalStorage();
+//   updateLocalStorage();
 
-  init();
-}
+//   init();
+// }
 
 // Update local storage transactions
 function updateLocalStorage() {
