@@ -16,19 +16,19 @@ let transactions =
 function addTransaction(transaction) {
   transaction.preventDefault();
 
-  // if (amount.value.trim() === "") {
-  //   alert("Please add amount you wish to transact");
-  // } else {
-  //   const transaction = {
-  //     amount: +amount.value,
-  //   };
-  //   transactions.push(transaction);
-  //   addTransactionDOM(transaction);
-  //   updateValues();
-  //   updateLocalStorage();
+  if (amount.value.trim() === "") {
+    alert("Please add amount you wish to transact");
+  } else {
+    const transaction = {
+      amount: +amount.value,
+    };
+    transactions.push(transaction);
+    addTransactionDOM(transaction);
+    updateValues();
+    updateLocalStorage();
 
-  //   amount.value = "";
-  // }
+    amount.value = "";
+  }
 }
 
 function addTransactionDOM(transaction) {
