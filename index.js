@@ -37,7 +37,7 @@ function removeTransaction(transaction) {
   // transaction.preventDefault();
 
   if(amount.value === "") {
-    alert("")
+    alert("Please remove amount you wish to transact")
 }
 
 
