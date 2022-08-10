@@ -5,7 +5,7 @@ to it's esteemed clientelle.The services vary depending on what one wants.
 
 ## Technology used
 
-1)HTML<br>2)CSS<br>3)Bootstrap<br>4)Javascript<br>5)JQuery
+1)HTML<br>2)CSS<br>3)Javascript
 
 ## Visual
 
