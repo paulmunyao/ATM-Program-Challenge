@@ -68,6 +68,7 @@ function removeTransaction(transaction) {
   }
 }
 
+// add remove transaction to html file
 function removeTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? "-" : "+";
   const item = document.createElement("li");
