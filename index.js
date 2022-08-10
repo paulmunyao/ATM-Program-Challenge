@@ -48,7 +48,7 @@ function addTransactionDOM(transaction) {
   list.appendChild(item);
 }
 
-// Update the balance, income and expense
+// Update the balance, deposit and expense
 function updateValues() {
   const amounts = transactions.map((transaction) => transaction.amount);
 
