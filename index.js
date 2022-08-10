@@ -45,7 +45,7 @@ function removeTransaction(transaction) {
     transactions.push(transaction);
     removeTransaction(transaction);
     updateValues();
-    
+    updateLocalStorage();
   }
 }
 
