@@ -57,7 +57,7 @@ function removeTransactionDOM(transaction) {
 
   item.classList.remove(transaction.amount < 0 ? "minus" : "plus");
 
-  item.innerHTML = `
+  item.innerHTML = `  
   <span>${sign}${Math.abs(
     transaction.amount
   )}</span> <button class="delete-btn" onclick="removeTransaction(${
