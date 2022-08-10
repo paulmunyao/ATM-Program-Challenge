@@ -42,6 +42,7 @@ function removeTransaction(transaction) {
     const transaction = {
       amount: -amount.value,
     };
+    transactions.push(transaction);
   }
 }
 
