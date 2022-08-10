@@ -47,7 +47,7 @@ function removeTransaction(transaction) {
     updateValues();
     updateLocalStorage();
 
-    amount.value = ""
+    // amount.value = ""
   }
 }
 
