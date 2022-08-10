@@ -66,7 +66,7 @@ function updateValues() {
 
   balance.innerText = `$${total}`;
   money_plus.innerText = `$${deposit}`;
-  money_minus.innerText = `$${expense}`;
+  money_minus.innerText = `$${withdrawal}`;
 }
 
 // Remove transaction by ID
