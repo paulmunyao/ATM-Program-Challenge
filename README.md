@@ -16,7 +16,10 @@ Note: Store the password, account balance in variables.
 1)HTML<br>2)CSS<br>3)Javascript
 
 ## Visual
-
+![Screenshot from 2022-08-11 02-10-06](https://user-images.githubusercontent.com/71633148/184039805-51ccc148-0db5-47c2-b341-b757aab91765.png)
+![Screenshot from 2022-08-11 02-10-23](https://user-images.githubusercontent.com/71633148/184039838-ba016ef2-8295-4cca-b196-833656a035b7.png)
+![Screenshot from 2022-08-11 02-10-30](https://user-images.githubusercontent.com/71633148/184039865-cd3f42b6-2dfd-44d0-a0af-06a6df052eec.png)
+![Screenshot from 2022-08-11 02-10-34](https://user-images.githubusercontent.com/71633148/184039879-12c40000-b151-4c88-9d9b-1435bc9564ea.png)
 
 
 ## Contributions
