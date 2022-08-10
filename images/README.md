@@ -17,7 +17,7 @@ Note: Store the password, account balance in variables.
 
 ## Visual
 
-https://user-images.githubusercontent.com/71633148/148129911-db642f56-3de5-408b-babb-ce4f3633c30b.mp4
+
 
 ## Contributions
 
