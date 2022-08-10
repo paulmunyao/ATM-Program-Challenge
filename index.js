@@ -34,7 +34,7 @@ function addTransaction(transaction) {
 
 // function for cash withdrawal
 function removeTransaction(transaction) {
-  
+  transaction.preventDefault();
 }
 
 
