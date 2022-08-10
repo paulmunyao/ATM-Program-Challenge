@@ -36,10 +36,10 @@ function addTransaction(transaction) {
 function removeTransaction(transaction) {
   // transaction.preventDefault();
 
-  if(amount.value === "") {
-    alert("Please remove amount you wish to transact")
-}}
-
+  if (amount.value === "") {
+    alert("Please remove amount you wish to transact");
+  }
+}
 
 function addTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? "" : "+";
@@ -70,9 +70,9 @@ function updateValues() {
     .toFixed(2);
 
   const withdrawal = (
-    amounts.filter((item) => item < 0).
-    reduce((acc, item) => (acc += item), 0) * -1)
-    .toFixed(2);
+    amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0) *
+    -1
+  ).toFixed(2);
 
   balance.innerText = `$${total}`;
   money_plus.innerText = `$${deposit}`;
