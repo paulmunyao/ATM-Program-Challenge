@@ -25,6 +25,10 @@ I'm open to contributions and learning
 If you wish to do so Kindly
 clone the github repo to your terminal and afterwards submit a pull request.
 
+## clone the repo
+
+Run `git clone https://github.com/paulmunyao/ATM-Program-Challenge.git` in your terminal
+
 ## Authors
 
 Paul Munyao Mutiso
