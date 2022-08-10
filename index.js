@@ -52,7 +52,7 @@ function removeTransaction(transaction) {
 }
 
 function removeTransactionDOM(transaction) {
-  
+  const sign = transaction.amount 
 }
 
 function addTransactionDOM(transaction) {
