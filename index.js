@@ -41,7 +41,7 @@ function removeTransaction(transaction) {
   } else{
     const transaction = {
       amount: -amount.value,
-    }
+    };
   }
 }
 
