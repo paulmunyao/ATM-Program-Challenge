@@ -15,7 +15,7 @@ let transactions =
 
 // function for cash deposit
 function addTransaction(transaction) {
-  transaction.preventDefault();
+  // transaction.preventDefault();
 
   if (amount.value.trim() === "") {
     alert("Please add amount you wish to transact");
