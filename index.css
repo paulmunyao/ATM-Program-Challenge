@@ -5,13 +5,15 @@ body {
 }
 
 .head{
-  margin-left: 500px;
+  margin-left: 450px;
   margin-top: -100px;
+  color: white;
 }
 
 .subhead{
   margin-left:250px;
   font-size: 30px;
+  color: white;
 }
 
 .login-page {
