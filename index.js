@@ -45,7 +45,7 @@ function addTransactionDOM(transaction) {
   })">x</button>
 `;
 
-  list.appendChild(item);
+  // list.appendChild(item);
 }
 
 // Update the balance, income and expense
