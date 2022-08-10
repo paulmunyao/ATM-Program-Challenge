@@ -57,6 +57,7 @@ function removeTransactionDOM(transaction) {
 
   item.classList.remove(transaction.amount< 0 ? "minus" : "plus");
 
+  item.innerHTML = 
   
 }
 
