@@ -17,7 +17,7 @@ let transactions =
 function addTransaction(transaction) {
   // transaction.preventDefault();
 
-  if (amount.value.trim() === "") {
+  if (amount.value === "") {
     alert("Please add amount you wish to transact");
   } else {
     const transaction = {
