@@ -1,4 +1,4 @@
-# Delani Studio
+# ATM PROGRAM
 
 Write an ATM program that has the following functionalities.
 • Login with password to start the program.
