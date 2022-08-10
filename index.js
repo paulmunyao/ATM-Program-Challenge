@@ -43,6 +43,7 @@ function removeTransaction(transaction) {
       amount: -amount.value,
     };
     transactions.push(transaction);
+    removeTransaction(transaction);
   }
 }
 
