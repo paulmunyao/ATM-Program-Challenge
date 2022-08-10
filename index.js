@@ -55,7 +55,7 @@ function removeTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? "-" : "+";
   const item = document.createElement("li");
 
-  
+  item.classList.remove(transaction.amount< 0 ? "minus" : "plus");
 }
 
 function addTransactionDOM(transaction) {
