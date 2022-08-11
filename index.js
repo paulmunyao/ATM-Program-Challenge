@@ -129,6 +129,7 @@ function init() {
   updateValues();
 }
 
+
 function init() {
   list.innerHTML = "";
 
