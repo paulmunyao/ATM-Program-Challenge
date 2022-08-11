@@ -140,8 +140,6 @@ function init() {
 }
 
 init();
-
-
 form.addEventListener("submit", removeTransaction);
 
 // Form validation
