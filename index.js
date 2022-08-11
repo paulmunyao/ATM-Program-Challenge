@@ -7,7 +7,7 @@ const text = document.getElementById("text");
 const amount = document.getElementById("amount");
 
 const localStorageTransactions = JSON.parse(
-  localStorage.getItem("transactions")
+  localStorage.getItem("transaction")
 );
 
 let transactions =
