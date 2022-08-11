@@ -28,7 +28,7 @@ function addTransaction(transaction) {
     updateValues();
     updateLocalStorage();
 
-    // amount.value = "";
+    amount.value = "";
   }
 }
 
