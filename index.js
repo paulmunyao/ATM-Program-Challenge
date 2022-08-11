@@ -108,13 +108,13 @@ function updateValues() {
 }
 
 // Remove transaction by ID
-// function removeTransaction(id) {
-//   transactions = transactions.filter((transaction) => transaction.id !== id);
+function removeTransaction(id) {
+  transactions = transactions.filter((transaction) => transaction.id !== id);
 
-//   updateLocalStorage();
+  updateLocalStorage();
 
-//   init();
-// }
+  init();
+}
 
 // Update local storage transactions
 function updateLocalStorage() {
