@@ -14,7 +14,7 @@ let transactions =
   localStorage.getItem("transactions") !== null ? localStorageTransactions : [];
 
 // function for cash deposit
-function addTransaction(transaction) {
+function addTransaction(_transaction) {
   // transaction.preventDefault();
 
   if (amount.value === "") {
