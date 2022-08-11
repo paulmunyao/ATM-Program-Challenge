@@ -129,7 +129,7 @@ function init() {
   updateValues();
 }
 
-
+form.addEventListener("submit", addTransaction);
 function init() {
   list.innerHTML = "";
 
