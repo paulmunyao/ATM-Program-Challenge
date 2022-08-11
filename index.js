@@ -131,7 +131,6 @@ function init() {
 
 form.addEventListener("submit", addTransaction);
 
-
 function init() {
   list.innerHTML = "";
 
