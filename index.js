@@ -23,7 +23,7 @@ function addTransaction(transaction) {
     const transaction = {
       amount: +amount.value,
     };
-    transactions.push(transactions);
+    transactions.push(transaction);
     addTransactionDOM(transaction);
     updateValues();
     updateLocalStorage();
