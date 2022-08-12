@@ -138,7 +138,7 @@ function init() {
   updateValues();
 }
 
-init();
+
 form.addEventListener("submit", minusTransaction);
 
 // Form validation
