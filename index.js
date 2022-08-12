@@ -139,7 +139,7 @@ function init() {
 }
 
 init();
-form.addEventListener("submit", withdrawalTransaction);
+form.addEventListener("submit", minusTransaction);
 
 // Form validation
 function validateForm() {
