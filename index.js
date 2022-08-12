@@ -134,7 +134,7 @@ form.addEventListener("submit", addTransaction);
 function init() {
   list.innerHTML = "";
 
-  transactions.forEach(removeTransactionDOM);
+  transactions.forEach(TransactionDOM);
   updateValues();
 }
 
