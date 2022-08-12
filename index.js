@@ -134,7 +134,7 @@ form.addEventListener("submit", addTransaction);
 function init() {
   list.innerHTML = "";
 
-  transactions.forEach(withdrawalTransactionDOM);
+  transactions.forEach(minusTransactionDOM);
   updateValues();
 }
 
