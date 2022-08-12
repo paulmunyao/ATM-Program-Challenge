@@ -50,7 +50,7 @@ function addTransactionDOM(transaction) {
 }
 
 // function for cash withdrawal
-minusTransaction(transaction) {
+function withdrawalTransaction(transaction) {
   // transaction.preventDefault();
 
   if (amount.value === "") {
