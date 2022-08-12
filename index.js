@@ -60,7 +60,7 @@ function withdrawalTransaction(transaction) {
       amount: -amount.value,
     };
     transactions.push(transaction);
-    Transaction(transaction);
+    withdrawalTransaction(transaction);
     updateValues();
     updateLocalStorage();
 
