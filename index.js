@@ -138,7 +138,7 @@ function init() {
   updateValues();
 }
 
-
+init();
 form.addEventListener("submit", minusTransaction);
 
 // Form validation
@@ -152,5 +152,3 @@ function validateForm() {
     alert("password must be at least 6 characters long");
   }
 }
-
-init();
