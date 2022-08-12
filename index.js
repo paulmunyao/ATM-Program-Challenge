@@ -97,14 +97,14 @@ function updateValues() {
     .reduce((acc, item) => (acc = item), 0)
     .toFixed(2);
 
-  const  remove= (
+  const remove = (
     amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0) *
     -1
   ).toFixed(2);
 
   balance.innerText = `$${total}`;
   money_plus.innerText = `$${deposit}`;
-  money_minus.innerText = `$${withdrawal}`;
+  money_minus.innerText = `$${}`;
 }
 
 // Remove transaction by ID
