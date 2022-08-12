@@ -104,7 +104,7 @@ function updateValues() {
 
   balance.innerText = `$${total}`;
   money_plus.innerText = `$${deposit}`;
-  money_minus.innerText = `$${remove}`;
+  money_minus.innerText = `$${minus}`;
 }
 
 // Remove transaction by ID
