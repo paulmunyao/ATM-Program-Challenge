@@ -50,24 +50,24 @@ function addTransactionDOM(transaction) {
   list.appendChild(item);
 }
 
-// function for cash withdrawal
-// function minusTransaction(transaction) {
-//   // transaction.preventDefault();
+function for cash withdrawal
+function minusTransaction(transaction) {
+  // transaction.preventDefault();
 
-//   if (amount.value === "") {
-//     alert("Please remove amount you wish to transact");
-//   } else {
-//     const transaction = {
-//       amount: -amount.value,
-//     };
-//     transactions.push(transaction);
-//     withdrawalTransaction(transaction);
-//     updateValues();
-//     updateLocalStorage();
+  if (amount.value === "") {
+    alert("Please remove amount you wish to transact");
+  } else {
+    const transaction = {
+      amount: -amount.value,
+    };
+    transactions.push(transaction);
+    withdrawalTransaction(transaction);
+    updateValues();
+    updateLocalStorage();
 
-//     // amount.value = ""
-//   }
-// }
+    // amount.value = ""
+  }
+}
 
 // add remove transaction to html file
 function minusTransactionDOM(transaction) {
