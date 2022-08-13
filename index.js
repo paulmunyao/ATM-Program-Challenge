@@ -54,7 +54,7 @@ function addTransactionDOM(transaction) {
 function minusTransaction(transaction) {
   // transaction.preventDefault();
 
-  if (number.value === "") {
+  if (number. === "") {
     alert("Please remove amount you wish to transact");
   } else {
     const transaction = {
