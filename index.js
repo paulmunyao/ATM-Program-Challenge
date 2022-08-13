@@ -70,22 +70,22 @@ function minusTransaction(transaction) {
 }
 
 // add remove transaction to html file
-function minusTransactionDOM(transaction) {
-  const sign = transaction.amount < 0 ? "-" : "+";
-  const item = document.createElement("li");
+// function minusTransactionDOM(transaction) {
+//   const sign = transaction.amount < 0 ? "-" : "+";
+//   const item = document.createElement("li");
 
-  item.classList.remove(transaction.amount < 0 ? "minus" : "plus");
+//   item.classList.remove(transaction.amount < 0 ? "minus" : "plus");
 
-  item.innerHTML = `  
-  <span>${sign}${Math.abs(
-    transaction.amount
-  )}</span> <button class="delete-btn" onclick="removeTransaction(${
-    transaction.id
-  })">x</button>
-`;
+//   item.innerHTML = `  
+//   <span>${sign}${Math.abs(
+//     transaction.amount
+//   )}</span> <button class="delete-btn" onclick="removeTransaction(${
+//     transaction.id
+//   })">x</button>
+// `;
 
-  list.appendChild(item);
-}
+//   list.appendChild(item);
+// }
 
 // Update the balance, deposit and withdrawal
 function updateValues() {
