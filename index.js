@@ -50,7 +50,7 @@ function addTransactionDOM(transaction) {
   list.appendChild(item);
 }
 
-function for cash withdrawal
+// function for cash withdrawal
 function minusTransaction(transaction) {
   // transaction.preventDefault();
 
