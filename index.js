@@ -58,7 +58,7 @@ function minusTransaction(transaction) {
     alert("Please remove amount you wish to transact");
   } else {
     const transaction = {
-      number: -amount.value,
+      number: -number.value,
     };
     transactions.push(transaction);
     withdrawalTransaction(transaction);
