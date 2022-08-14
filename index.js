@@ -70,7 +70,7 @@ function addTransactionDOM(transaction) {
 // }
 
 // add remove transaction to html file
-function withdrawTransactionDOM(transaction) {
+function minusTransactionDOM(transaction) {
   const sign = transaction.withdraw < 0 ? "-" : "+";
   const item = document.createElement("li");
 
