@@ -74,7 +74,7 @@ function withdrawTransactionDOM(transaction) {
   const sign = transaction.withdraw < 0 ? "-" : "+";
   const item = document.createElement("li");
 
-  item.classList.remove(transaction. < 0 ? "minus" : "plus");
+  item.classList.remove(transaction.withdraw < 0 ? "minus" : "plus");
 
   item.innerHTML = `  
   <span>${sign}${Math.abs(
