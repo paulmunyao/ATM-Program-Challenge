@@ -71,7 +71,7 @@ function addTransactionDOM(transaction) {
 
 // add remove transaction to html file
 function withdrawTransactionDOM(transaction) {
-  const sign = transaction. < 0 ? "-" : "+";
+  const sign = transaction.amount < 0 ? "-" : "+";
   const item = document.createElement("li");
 
   item.classList.remove(transaction.amount < 0 ? "minus" : "plus");
