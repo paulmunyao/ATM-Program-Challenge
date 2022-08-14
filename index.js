@@ -78,7 +78,7 @@ function withdrawTransactionDOM(transaction) {
 
   item.innerHTML = `  
   <span>${sign}${Math.abs(
-    transaction.
+    transaction.amount
   )}</span> <button class="delete-btn" onclick="removeTransaction(${
     transaction.id
   })">x</button>
