@@ -58,7 +58,7 @@ function addTransactionDOM(transaction) {
 //     alert("Please remove amount you wish to transact");
 //   } else {
 //     const transaction = {
-//       withdraw: -.value,
+//       withdraw: -withdraw.value,
 //     };
 //     transactions.push(transaction);
 //     withdrawalTransaction(transaction);
