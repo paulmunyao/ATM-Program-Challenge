@@ -51,23 +51,23 @@ function addTransactionDOM(transaction) {
 }
 
 // function for cash withdrawal
-function minusTransaction(transaction) {
-  // transaction.preventDefault();
+// function minusTransaction(transaction) {
+//   // transaction.preventDefault();
 
-  if (withdraw.value === "") {
-    alert("Please remove amount you wish to transact");
-  } else {
-    const transaction = {
-      withdraw: -withdraw.value,
-    };
-    transactions.push(transaction);
-    withdrawTransaction(transaction);
-    updateValues();
-    updateLocalStorage();
+//   if (withdraw.value === "") {
+//     alert("Please remove amount you wish to transact");
+//   } else {
+//     const transaction = {
+//       withdraw: -withdraw.value,
+//     };
+//     transactions.push(transaction);
+//     withdrawTransaction(transaction);
+//     updateValues();
+//     updateLocalStorage();
 
-    // withdraw.value = ""
-  }
-}
+//     // withdraw.value = ""
+//   }
+// }
 
 // add remove transaction to html file
 function minusTransactionDOM(transaction) {
