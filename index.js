@@ -5,7 +5,7 @@ const list = document.getElementById("list");
 const form = document.getElementById("form");
 const text = document.getElementById("text");
 const amount = document.getElementById("amount");
-const  = document.getElementById("number");
+const Withdraw = document.getElementById("number");
 
 const localStorageTransactions = JSON.parse(
   localStorage.getItem("transactions")
