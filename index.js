@@ -76,13 +76,13 @@ function minusTransactionDOM(transaction) {
 
   item.classList.remove(transaction.withdraw < 0 ? "minus" : "plus");
 
-//   item.innerHTML = `  
-//   <span>${sign}${Math.abs(
-//     transaction.amount
-//   )}</span> <button class="delete-btn" onclick="removeTransaction(${
-//     transaction.id
-//   })">x</button>
-// `;
+  item.innerHTML = `  
+  <span>${sign}${Math.abs(
+    transaction.amount
+  )}</span> <button class="delete-btn" onclick="removeTransaction(${
+    transaction.id
+  })">x</button>
+`;
 
   list.appendChild(item);
 }
