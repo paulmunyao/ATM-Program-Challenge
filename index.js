@@ -61,7 +61,7 @@ function addTransactionDOM(transaction) {
 //       withdraw: -withdraw.value,
 //     };
 //     transactions.push(transaction);
-//     withdrawalTransaction(transaction);
+//     withdrawTransaction(transaction);
 //     updateValues();
 //     updateLocalStorage();
 
