@@ -140,7 +140,7 @@ function init() {
 }
 
 init();
-form.addEventListener("submit", Transaction);
+form.addEventListener("submit", minusTransaction);
 
 // Form validation
 function validateForm() {
