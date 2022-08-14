@@ -65,7 +65,7 @@ function addTransactionDOM(transaction) {
 //     updateValues();
 //     updateLocalStorage();
 
-//     // amount.value = ""
+//     // .value = ""
 //   }
 // }
 
